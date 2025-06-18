@@ -68,7 +68,8 @@ npm run dev
 
 ## 🌐 Website Preview
 
-> *(Add screenshots or live link once deployed)*
+> ![Homepage Screenshot](screenshots/homepage.png)
+
 
 ---
 
