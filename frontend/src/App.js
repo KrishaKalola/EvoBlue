@@ -126,7 +126,7 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <Router basename="/EvoBlue">
       <div className="App">
         {/* Navigation */}
         <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
