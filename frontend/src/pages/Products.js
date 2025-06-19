@@ -5,52 +5,35 @@ function Products() {
   const allProducts = [
     {
       id: 1,
-      name: "Evo Blue Spring Water",
-      price: "$2.99",
+      name: "Regular 20L",
+      price: "₹50",
       image: "https://images.pexels.com/photos/416528/pexels-photo-416528.jpeg?auto=compress&w=400&h=400&fit=crop",
-      description: "500ml natural spring water from pristine mountain sources",
-      type: "Spring Water",
-      bestSeller: true
+      description: "Pure and refreshing regular water in a 20L can, perfect for home and office use.",
+      type: "Regular Water"
     },
     {
       id: 2,
-      name: "Evo Blue Purified Water",
-      price: "$1.99",
-      image: "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=400&h=400&fit=crop",
-      description: "330ml purified water through advanced filtration process",
-      type: "Purified Water"
-    },
-    {
-      id: 3,
-      name: "Evo Blue Mineral Water",
-      price: "$3.49",
+      name: "Mineral+ 1L",
+      price: "₹20",
       image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
-      description: "500ml mineral-rich water with essential electrolytes",
+      description: "Mineral enriched water in a convenient 1L bottle for daily hydration.",
       type: "Mineral Water"
     },
     {
-      id: 4,
-      name: "Evo Blue Alkaline Water",
-      price: "$3.99",
+      id: 3,
+      name: "Alkaline 1L",
+      price: "₹35",
       image: "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=400&h=400&fit=crop",
-      description: "500ml alkaline water with balanced pH for optimal hydration",
+      description: "Alkaline water with balanced pH in a 1L bottle for optimal wellness.",
       type: "Alkaline Water"
     },
     {
-      id: 5,
-      name: "Evo Blue Family Pack",
-      price: "$4.99",
-      image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
-      description: "1L purified water - perfect for family and office use",
-      type: "Purified Water"
-    },
-    {
-      id: 6,
-      name: "Evo Blue Sports Pack",
-      price: "$2.49",
-      image: "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=400&h=400&fit=crop",
-      description: "500ml spring water with easy-grip bottle for active lifestyle",
-      type: "Spring Water"
+      id: 4,
+      name: "Sparkle 500ml",
+      price: "₹15",
+      image: "https://images.pexels.com/photos/416528/pexels-photo-416528.jpeg?auto=compress&w=400&h=400&fit=crop",
+      description: "Sparkling water in a 500ml bottle, crisp and refreshing on the go.",
+      type: "Sparkling Water"
     }
   ];
   const waterTypes = ["All", ...Array.from(new Set(allProducts.map(p => p.type)))]
@@ -98,9 +81,6 @@ function Products() {
                 <h3>{product.name}</h3>
                 <p>{product.description}</p>
                 <div className="product-price">{product.price}</div>
-                <motion.button className="btn-primary" whileTap={{ scale: 0.95 }} whileHover={{ scale: 1.07 }} transition={{ type: "spring", stiffness: 300 }}>
-                  Add to Cart
-                </motion.button>
               </div>
             </motion.div>
           ))}

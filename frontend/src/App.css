@@ -1134,7 +1134,7 @@ body {
 .chat-popup {
   position: fixed;
   right: 24px;
-  bottom: 110px;
+  bottom: 80px;
   z-index: 1100;
   background: linear-gradient(135deg, #e0e7ef 60%, #dbeafe 100%);
   color: #1e40af;

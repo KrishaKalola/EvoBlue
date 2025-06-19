@@ -149,10 +149,6 @@ function App() {
               <Link to="/contact" onClick={() => setIsMenuOpen(false)}>Contact</Link>
             </div>
             <div className="nav-actions">
-              <button className="cart-btn">
-                <FaShoppingCart />
-                <span className="cart-count">0</span>
-              </button>
               <button 
                 className="menu-toggle"
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
