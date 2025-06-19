@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/EvoBlue/static/css/main.58ba51dd.css",
-    "main.js": "/EvoBlue/static/js/main.3b4a9429.js",
+    "main.css": "/EvoBlue/static/css/main.0b3363d4.css",
+    "main.js": "/EvoBlue/static/js/main.8f814082.js",
     "static/js/453.670e15c7.chunk.js": "/EvoBlue/static/js/453.670e15c7.chunk.js",
     "index.html": "/EvoBlue/index.html",
-    "main.58ba51dd.css.map": "/EvoBlue/static/css/main.58ba51dd.css.map",
-    "main.3b4a9429.js.map": "/EvoBlue/static/js/main.3b4a9429.js.map",
+    "main.0b3363d4.css.map": "/EvoBlue/static/css/main.0b3363d4.css.map",
+    "main.8f814082.js.map": "/EvoBlue/static/js/main.8f814082.js.map",
     "453.670e15c7.chunk.js.map": "/EvoBlue/static/js/453.670e15c7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.58ba51dd.css",
-    "static/js/main.3b4a9429.js"
+    "static/css/main.0b3363d4.css",
+    "static/js/main.8f814082.js"
   ]
 }
